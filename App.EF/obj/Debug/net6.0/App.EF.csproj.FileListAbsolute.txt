@@ -1,0 +1,14 @@
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.EF\bin\Debug\net6.0\App.EF.deps.json
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.EF\bin\Debug\net6.0\App.EF.runtimeconfig.json
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.EF\bin\Debug\net6.0\App.EF.dll
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.EF\bin\Debug\net6.0\App.EF.pdb
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.EF\obj\Debug\net6.0\App.EF.csproj.AssemblyReference.cache
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.EF\obj\Debug\net6.0\App.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.EF\obj\Debug\net6.0\App.EF.AssemblyInfoInputs.cache
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.EF\obj\Debug\net6.0\App.EF.AssemblyInfo.cs
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.EF\obj\Debug\net6.0\App.EF.csproj.CoreCompileInputs.cache
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.EF\obj\Debug\net6.0\App.EF.dll
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.EF\obj\Debug\net6.0\refint\App.EF.dll
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.EF\obj\Debug\net6.0\App.EF.pdb
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.EF\obj\Debug\net6.0\App.EF.genruntimeconfig.cache
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.EF\obj\Debug\net6.0\ref\App.EF.dll

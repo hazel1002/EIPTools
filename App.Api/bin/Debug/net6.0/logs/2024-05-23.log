@@ -1,0 +1,98 @@
+2024-05-23 16:11:13.2971||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-23 16:11:13.2971||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-23 16:11:13.3236||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Api\ 
+2024-05-23 16:12:34.4877|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-05-23 16:12:51.7857||ERROR|App.BLL.ServiceBase|SearchIp EX Utc Now:2024/05/23 08:12:51
+ EX:Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at App.BLL.User.UserLogin(UserLoginRequest model, String clientIP) in C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.BLL\User\Implement\User.cs:line 35
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20 
+2024-05-23 16:13:58.5799||ERROR|App.BLL.ServiceBase|SearchIp EX Utc Now:2024/05/23 08:13:58
+ EX:Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at App.BLL.User.UserLogin(UserLoginRequest model, String clientIP) in C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.BLL\User\Implement\User.cs:line 35
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20 
+2024-05-23 16:15:12.5312||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-23 16:15:12.5312||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-23 16:15:12.5312||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Api\ 
+2024-05-23 16:15:26.3987|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-05-23 16:44:59.2902||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-23 16:44:59.3014||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-23 16:44:59.3014||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Api\ 
+2024-05-23 16:45:28.2482|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-05-23 16:47:06.0337||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-23 16:47:06.0337||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-23 16:47:06.0497||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Api\ 
+2024-05-23 17:07:39.2356||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-23 17:07:39.2356||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-23 17:07:39.2356||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Api\ 
+2024-05-23 17:08:00.1170|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-05-23 17:13:45.8919||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-23 17:13:45.8919||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-23 17:13:45.8919||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Api\ 
+2024-05-23 17:14:49.8863|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-05-23 17:17:12.6396||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-23 17:17:12.6396||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-23 17:17:12.6396||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Api\ 
+2024-05-23 17:17:17.5309|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-05-23 17:22:32.1559||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-23 17:22:32.1559||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-23 17:22:32.1706||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Api\ 
+2024-05-23 17:22:35.4648|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-05-23 17:32:27.6272||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-23 17:32:27.6272||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-23 17:32:27.6418||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Api\ 
+2024-05-23 17:32:41.5959|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-05-23 17:33:07.6788||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-23 17:33:07.6909||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-23 17:33:07.6909||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Api\ 
+2024-05-23 17:37:00.0442||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-23 17:37:00.0561||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-23 17:37:00.0561||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Api\ 
+2024-05-23 17:37:28.6633|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-05-23 17:38:24.2056||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-23 17:38:24.2183||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-23 17:38:24.2183||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Api\ 
+2024-05-23 17:38:24.3256|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-05-23 17:43:11.3746||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-23 17:43:11.3746||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-23 17:43:11.3746||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Api\ 
+2024-05-23 17:43:31.7804|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-05-23 17:51:43.3868||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-05-23 17:51:43.4130||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-05-23 17:51:43.5255||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Api\ 
+2024-05-23 17:51:43.8460|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 

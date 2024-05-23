@@ -1,0 +1,14 @@
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Enum\bin\Debug\net6.0\App.Enum.deps.json
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Enum\bin\Debug\net6.0\App.Enum.runtimeconfig.json
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Enum\bin\Debug\net6.0\App.Enum.dll
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Enum\bin\Debug\net6.0\App.Enum.pdb
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Enum\obj\Debug\net6.0\App.Enum.csproj.AssemblyReference.cache
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Enum\obj\Debug\net6.0\App.Enum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Enum\obj\Debug\net6.0\App.Enum.AssemblyInfoInputs.cache
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Enum\obj\Debug\net6.0\App.Enum.AssemblyInfo.cs
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Enum\obj\Debug\net6.0\App.Enum.csproj.CoreCompileInputs.cache
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Enum\obj\Debug\net6.0\App.Enum.dll
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Enum\obj\Debug\net6.0\refint\App.Enum.dll
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Enum\obj\Debug\net6.0\App.Enum.pdb
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Enum\obj\Debug\net6.0\App.Enum.genruntimeconfig.cache
+C:\Users\mimih\source\side\ngadmin.template\webAPI6\App.Enum\obj\Debug\net6.0\ref\App.Enum.dll
