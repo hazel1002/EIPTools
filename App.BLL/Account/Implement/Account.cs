@@ -63,6 +63,8 @@ namespace App.BLL.Account.Implement
                     int userId = CreateUser(request.account,request.mail,request.password, buid, deptId);
                     // 使用者角色對應
                     int isUserOnGroup = await CreateUserOnGroup(userId,userGroupId);
+                    response.StatusCode = EnumStatusCode.Success;
+                    response.Message = "帳號成功創建!!";
 
 
                 }
